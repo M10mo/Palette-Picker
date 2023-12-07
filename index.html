@@ -9,34 +9,33 @@
   <body>
     <h1>Palette Picker</h1>
     <main>
-      <form>
-        <h2>Add a Palette</h2>
-        <div id="'input-one" class="field"></div>
-        <label for="Palette-title">Palette Title:</label>
-        <input
-          type="text"
-          name="Palette-title"
-          id="'Palette-title"
-          placeholder=""
-        />
-        <p>Color #1</p>
-        <p>Color #2</p>
-        <p>Color #3</p>
-        <h3>Temperature</h3>
-        <label>
-          <input type="radio" name="options" value="option1" /> Warm
-        </label>
-        <br />
-        <label>
-          <input type="radio" name="options" value="option2" /> Neutral
-        </label>
-        <br />
-        <label>
-          <input type="radio" name="options" value="option3" /> Cool
-        </label>
-        <br />
-        <button type="submit">Create the Palette</button>
-      </form>
+      <div id="container">
+        <form>
+          <h2>Add a Palette</h2>
+          <div id="'input-one" class="field"></div>
+          <label for="Palette-title">Palette Title:</label>
+          <input type="text" name="Palette-title" id="'Palette-title" placeholder=""/>
+          <p>Color #1</p>
+          <p>Color #2</p>
+          <p>Color #3</p>
+          <h3>Temperature</h3>
+          <div id="options">
+          <label>
+            <input type="radio" name="options" value="option1" /> Warm
+          </label>
+          <br />
+          <label>
+            <input type="radio" name="options" value="option2" /> Neutral
+          </label>
+          <br />
+          <label>
+            <input type="radio" name="options" value="option3" /> Cool
+          </label>
+          <br />
+        </div>
+          <button type="submit">Create the Palette</button>
+        </form>
+      </div>
       <div id="app"></div>
     </main>
     <script type="module" src="./src/main.js"></script>
