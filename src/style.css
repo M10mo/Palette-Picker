@@ -1,0 +1,47 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+  background-color: #242424 !important;
+  font-synthesis: none !important;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+}
+
+h1 {
+  
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: grey;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+}
+
+label {
+  margin-bottom: 8px; /* Add space between labels */
+}
+
+input,
+button {
+  margin-bottom: 16px; /* Add space between inputs and buttons */
+}
