@@ -44,6 +44,8 @@ function displayPaletteHistory() {
   // Retrieve user's palette from localStorage
   const storedPalette = localStorage.getItem('userPalette');
 
+
+
   if (storedPalette) {
     const userPalette = JSON.parse(storedPalette);
 
