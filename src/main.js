@@ -75,3 +75,4 @@ function displayPaletteHistory() {
     paletteHistoryDiv.appendChild(paletteForm);
   }
 }
+console.log(addPalette)
