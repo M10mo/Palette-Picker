@@ -10,29 +10,29 @@
     <h1>Palette Picker</h1>
     <main>
       <div id="container">
-        <form>
+        <form id="paletteForm">
           <h2>Add a Palette</h2>
           <div id="'input-one" class="field"></div>
           <label for="Palette-title">Palette Title:</label>
-          <input type="text" name="Palette-title" id="'Palette-title" placeholder=""/>
+          <input type="text" name="title" id="'Palette-title" placeholder="" required/>
           <label for="color1">Color #1</label>
-          <input type="color" name="color1" id="color1">
+          <input type="color" name="color1" id="color1" required>
           <label for="'color2">Color #2</label>
-          <input type="color" name="color2" id="color2">
+          <input type="color" name="color2" id="color2" required> 
           <label for="color3">Color #3</label>
-          <input type="color" name="color3" id="color3">
+          <input type="color" name="color3" id="color3" required>
           <h3>Temperature</h3>
           <div id="options">
           <label>
-            <input type="radio" name="options" value="option1" /> Warm
+            <input type="radio" name="Temperature" value="warm" required/> Warm
           </label>
           <br />
           <label>
-            <input type="radio" name="options" value="option2" /> Neutral
+            <input type="radio" name="Temperature" value="neutral" required /> Neutral
           </label>
           <br />
           <label>
-            <input type="radio" name="options" value="option3" /> Cool
+            <input type="radio" name="Temperature" value="cool" required/> Cool
           </label>
           <br />
         </div>
@@ -40,6 +40,7 @@
         </form>
       </div>
       <div id="app"></div>
+      <div id="palettes"></div>
     </main>
     <script type="module" src="./src/main.js"></script>
   </body>
